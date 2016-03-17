@@ -2,18 +2,45 @@
 /* CSS Document */
 
 body {
-	
+	margin: 0;
+	font: normal 12px/18px 'Helvetica', Arial, sans-serif;
+	background-image: url("images/WinterKingdom.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+/* Page Positioning */
+
+#container {
+	width: 960px;
+	margin: 0;
 }
 
 #header {
-	
+	width: 960px;
+	background: #B86E6F;
+}
+
+#navigation {
+	background: #31FD00;
 }
 
 #content {
-	
-	
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+	width: 440px;
+	background: #fff;
+	margin-left: 480px;
 }
 
 #footer {
-	
+	position: fixed;
+	bottom: 0px;
+	padding: 0 20px;
+	background: #62D7F5;
 }
+
+/* Page Styles */
