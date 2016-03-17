@@ -1,9 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {
-	margin: 0;
-	font: normal 12px/18px 'Helvetica', Arial, sans-serif;
+html {
+	margin: 0 auto;
+	font: normal 0.75em/1.125em 'Helvetica', Arial, sans-serif;
 	background-image: url("images/WinterKingdom.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -12,13 +12,12 @@ body {
 
 /* Page Positioning */
 
-#container {
-	width: 960px;
-	margin: 0;
+body {
+	width: 80em;
+	margin: 0 auto;
 }
 
 #header {
-	width: 960px;
 	background: #B86E6F;
 }
 
@@ -26,21 +25,32 @@ body {
 	background: #31FD00;
 }
 
-#content {
-	padding-top: 0px;
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-bottom: 0px;
-	width: 440px;
-	background: #fff;
-	margin-left: 480px;
+#contentwrapper {
+	width: 80em;
+}
+
+#column1 {
+	width: 26.666666666666668em;
+}
+
+#column2 {
+	width: 26.666666666666668em;
+}
+
+#column3 {
+	width: 26.666666666666668em;
 }
 
 #footer {
 	position: fixed;
-	bottom: 0px;
-	padding: 0 20px;
+	width: 80em;
+	bottom: 0em;
 	background: #62D7F5;
 }
 
 /* Page Styles */
+
+#header a, #navigation a {
+	text-decoration: none;
+	
+}
