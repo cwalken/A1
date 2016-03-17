@@ -2,7 +2,7 @@
 /* CSS Document */
 
 html {
-	margin: 0 auto;
+	margin: 0;
 	font: normal 0.75em/1.125em 'Helvetica', Arial, sans-serif;
 	background-image: url("images/WinterKingdom.jpg");
 	background-repeat: no-repeat;
@@ -30,15 +30,26 @@ body {
 }
 
 #column1 {
-	width: 26.666666666666668em;
+	float: left;
+	padding-right: 1.6666666666666667em;
+	padding-left: 1.6666666666666667em;
+	width: 23.333333333333332em;
+	overflow: hidden;
 }
 
 #column2 {
-	width: 26.666666666666668em;
+	float: left;
+	padding-right: 1.6666666666666667em;
+	padding-left: 1.6666666666666667em;
+	width: 23.333333333333332em;
+	overflow: hidden;
 }
 
 #column3 {
-	width: 26.666666666666668em;
+	padding-right: 1.6666666666666667em;
+	padding-left: 1.6666666666666667em;
+	width: 23.333333333333332em;
+	overflow: hidden;
 }
 
 #footer {
