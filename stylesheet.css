@@ -2,15 +2,15 @@
 /* CSS Document */
 
 html {
-	margin: 0;
-	font: normal 0.75em/1.125em 'Helvetica', Arial, sans-serif;
+	margin: 0 auto;
+	font: normal 0.75em/1.125em 'Trebuchet MS', Helvetica, Arial, sans-serif;
 	background-image: url("images/WinterKingdom.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 
 }
 
-/* Page Positioning */
+/* Layout */
 
 body {
 	width: 80em;
@@ -18,50 +18,108 @@ body {
 }
 
 #header {
-	background: #B86E6F;
+	height: 50px;
+	background: #2A2A2A;
 }
 
 #navigation {
-	background: #31FD00;
+	height: 50px;
+	background: #444443;
+	color: #FFFFFF;
+	padding-left: 20em;
 }
 
 #contentwrapper {
 	width: 80em;
+	color: #FFFFFF;
 }
 
 #column1 {
+	background: #F76C19;
 	float: left;
 	padding-right: 1.6666666666666667em;
 	padding-left: 1.6666666666666667em;
 	width: 23.333333333333332em;
 	overflow: hidden;
+	min-height: 50px;
+	border-top: 4px solid #2A2A2A;
 }
 
 #column2 {
+	background: #2A2A2A;
 	float: left;
 	padding-right: 1.6666666666666667em;
 	padding-left: 1.6666666666666667em;
 	width: 23.333333333333332em;
 	overflow: hidden;
+	border-top: 4px solid #F76C19;
+	min-height: 500px;
 }
 
 #column3 {
+	background: #2A2A2A;
 	padding-right: 1.6666666666666667em;
 	padding-left: 1.6666666666666667em;
 	width: 23.333333333333332em;
 	overflow: hidden;
+	min-height: 500px;
+	border-top: 4px solid #F76C19;
 }
 
 #footer {
+	color: #FFFFFF;
+	margin: 0 auto;
+	text-align: center;
 	position: fixed;
 	width: 80em;
 	bottom: 0em;
-	background: #62D7F5;
+	background-color: #444443;
+	padding-top: 5px;
+	border-top: 4px solid #F76C19;
 }
 
-/* Page Styles */
+#fcolour {
+	background-color: #2A2A2A;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
 
-#header a, #navigation a {
+/* Extra Styles */
+
+h1, h2, p, table {
+	text-align: center;
+}
+
+table, th, td {
+    border: 1px solid #F76C19;
+}
+
+a, #footer a, #header a, #navigation a {
 	text-decoration: none;
 	
+}
+
+#header a, #navigation a {
+	display: block;
+	float: left;
+	text-align: center;
+	padding: 0 20px;
+	line-height: 50px;
+	border-right: 0.5px solid #F76C19;
+	border-left: 0.5px solid #F76C19;
+}
+
+a:link {
+	color: #FFFFFF;
+	
+}
+
+a:visited {
+	color: #FFFFFF;
+	
+}
+
+a:hover {
+    color: #2388C8; 
+    text-decoration: none;   
 }
